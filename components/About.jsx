@@ -18,23 +18,16 @@ const About = () => {
           With a name that suggests a deep connection to knowledge,
            I have proven to be a valuable asset in the ever-evolving world of web development.
            Beginning the journey in the tech industry with a passion for creating seamless and 
-           efficient digital experiences, Jnanesha has accumulated 
-           a wealth of expertise in various programming languages, 
-           frameworks, and tools essential for full-stack development
+           efficient digital experiences.
           </p>
           <p className='py-2 text-gray-600'>
            
-     In 2022, I embarked on a journey into the realm of full-stack development, and since then, 
-     I have honed my skills in key technologies that form the backbone of modern web applications. 
+     In 2022, I embarked on a journey into the realm of full-stack development, and since then,  
       Proficient in React.js, I have mastered the art of building dynamic and interactive user interfaces.
-     My expertise extends to Next.js, a framework that enhances React
-    development by incorporating features like server-side rendering and
-     efficient routing. In the realm of backend development, I am well-versed in MongoDB, 
-     utilizing its NoSQL capabilities for flexible and scalable data storage. Complementing 
-     these frontend and backend skills are my foundational knowledge in HTML and CSS,
-     enabling me to create visually appealing and well-structured web applications.
+       In the realm of backend development, I am well-versed in MongoDB, 
+     utilizing its NoSQL capabilities for flexible and scalable data storage.
      As I continue to evolve in the full-stack landscape, I am keen on expanding my 
-     proficiency in technologies such as Node.js and Express.js to unify my development stack and exploring
+     proficiency in technologies such as Node.js to unify my development stack and exploring
      advanced concepts like state management and testing for building robust and scalable applications..
           </p>
           <Link href='/#projects'>
