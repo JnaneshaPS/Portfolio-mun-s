@@ -72,9 +72,10 @@ const resume = () => {
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
+            <span className='px-2'>|</span>MongoDB
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span> Three.js
+            <span className='px-2'>|</span>vercel
           </p>
           <p className='py-2'>
             <span className='font-bold'>Google Cloud Services</span>
