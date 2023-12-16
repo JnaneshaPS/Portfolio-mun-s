@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import Head from 'next/head';
 
-const college = () => {
+const College = () => {
   const [projects, setProjects] = useState([]);
   const [projectName, setProjectName] = useState('');
   const [projectLink, setProjectLink] = useState('');
@@ -75,4 +75,4 @@ const college = () => {
   );
 };
 
-export default college;
+export default College;
