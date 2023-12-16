@@ -6,7 +6,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Jnanesha P S | Resume</title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
@@ -17,17 +17,17 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Jnanesha P S</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/jnanesha-p-s-291067289/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/JnaneshaPS'
               target='_blank'
               rel='noreferrer'
             >
@@ -65,23 +65,20 @@ const resume = () => {
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
+            <span className='px-2'>|</span>Full-stack Web Developer
             <span className='px-2'>|</span> HTML
             <span className='px-2'>|</span>CSS
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
             <span className='px-2'>|</span>NoSQL
             <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
             <span className='px-2'>|</span> RESTAPI
           </p>
           <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
+            <span className='font-bold'>Google Cloud Services</span>
+            <span className='px-2'>|</span>Microsoft Azure Web Services Cloud
           </p>
         </div>
 
@@ -92,27 +89,23 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+            React Js & Next.js
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>1 years
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
+          <p className='py-1 italic'>Front End Web Developer & Web Designer (2022-2023)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+            Understanding the fundamentals of React, including components, JSX, and the virtual DOM.
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+             a clean and visually appealing design that demonstrates your attention to UI/UX.
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+            Familiarity with styling React components using CSS, CSS-in-JS libraries, or preprocessors.
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+            Ability to fetch and handle data from APIs using tools like fetch or third-party libraries.
             </li>
           </ul>
         </div>
@@ -122,64 +115,59 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
+              HTML,CSS,JavaScript,MongoDB
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>1 years
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
+          <p className='py-1 italic'>Front End  and Database</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+            I possess a strong foundation in front-end development, proficient in HTML, CSS, and JavaScript.
+            I am committed to staying updated with the latest trends and best practices in web development.
             </li>
             <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+            I have hands-on experience with MongoDB, a NoSQL database, 
+            and am proficient in designing, implementing, and managing robust database solutions.
             </li>
           </ul>
         </div>
 
         {/*  */}
         <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
+          Educational Qualification
         </h5>
       
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
+            <span className='font-bold'>Primary and High school</span>
+            <span className='px-2'>|</span>Dakshina Kannada
           </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
+          <p className='py-1 italic'> (2010 – 2020)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+              St.Joseph english medium school,sullia,Dakshina kannada 574239
             </li>
+            </ul>
+            <p className='italic'>
+            <span className='font-bold'>Pre-university Education</span>
+            <span className='px-2'>|</span>Dakshina Kannada
+          </p>
+          <p className='py-1 italic'> (2020 – 2022)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
+              K.V.G Amarajyothi pre-university college ,sullia,Dakshina kannada 574239
+            </li>  
+          </ul>
+            <p className='italic'>
+            <span className='font-bold'>Bachelor in Engineering</span>
+            <span className='px-2'>|</span>Banglore
+          </p>
+          <p className='py-1 italic'> (2022 – 2026)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
-            </li>
+            M.S.Ramaiah Institute of Technology,Banglore 560054
+            </li>  
           </ul>
         </div>
       </div>
