@@ -84,7 +84,7 @@ const resume = () => {
         </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
-          Professional Experience
+           Stared Skills
         </h5>
         {/* Experience */}
         <div className='py-6'>
