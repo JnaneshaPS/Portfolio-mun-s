@@ -1,6 +1,14 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+const withTM = require('next-transpile-modules')(['mongodb']);
 
-module.exports = nextConfig
+module.exports = withTM({
+  reactStrictMode: true,
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      'mongodb-client-encryption': false,
+      'fs': false,
+      'child_process': false,
+    };
+    return config;
+  },
+});
