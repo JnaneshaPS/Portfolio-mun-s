@@ -8,6 +8,7 @@ module.exports = withTM({
       'mongodb-client-encryption': false,
       'fs': false,
       'child_process': false,
+      'tls': false,
     };
     return config;
   },
