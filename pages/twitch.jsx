@@ -59,7 +59,7 @@ const twitch = () => {
                 <RiRadioButtonFill className='pr-1' /> HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google map API
+                <RiRadioButtonFill className='pr-1' /> Next JS
               </p>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 
 const College = () => {
@@ -6,27 +6,51 @@ const College = () => {
   const [projectName, setProjectName] = useState('');
   const [projectLink, setProjectLink] = useState('');
 
+  useEffect(() => {
+    fetch('/api/projects')
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+      })
+      .then((data) => setProjects(data))
+      .catch((error) => console.error('Error fetching projects:', error));
+  }, []);
+
   const addProject = () => {
     if (projectName && projectLink) {
-      // Create a new project object
       const newProject = {
         name: projectName,
         link: projectLink,
       };
 
-      // Add the new project to the projects list
-      setProjects([...projects, newProject]);
-
-      // Clear input fields
-      setProjectName('');
-      setProjectLink('');
+      fetch('/api/projects', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newProject),
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+          }
+          return response.json();
+        })
+        .then((data) => {
+          setProjects([...projects, data]);
+          setProjectName('');
+          setProjectLink('');
+        })
+        .catch((error) => console.error('Error adding project:', error));
     }
   };
 
   return (
     <>
       <Head>
-        {/* Head content */}
+        <title>College Management System</title>
       </Head>
       <div style={{ maxWidth: '800px', margin: '0 auto', padding: '20px', paddingTop: '200px' }}>
         <h1 style={{ color: '#333' }}>College Management System</h1>
