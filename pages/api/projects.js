@@ -3,7 +3,7 @@ import connectDb from '../db';
 export default async function handler(req, res) {
   try {
     const client = await connectDb();
-    const db = client.db('mongodb'); 
+    const db = client.db('mongodb'); // Replace with your database name
     const projectsCollection = db.collection('projects');
 
     if (req.method === 'POST') {
@@ -21,5 +21,3 @@ export default async function handler(req, res) {
     res.status(500).json({ error: 'Internal server error' });
   }
 }
-
-
